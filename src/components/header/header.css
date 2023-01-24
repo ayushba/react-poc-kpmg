@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 75px;
+}
+
+.company-name {
+
+}
+
+.search-contianer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 10px 10px 10px 50px;
+    background-color: #fff;
+    border-radius: 40px;
+    width: 200px;
+    outline-width: 0;
+    font-size: 14px;
+    border: 1px solid #efefef;
+    line-height: 1.6;
+}
+
+.search-icon {
+    position: absolute;
+    left: 27px;
+    color: #005c68;
+    font-size: 15px;
+    top: 14px;
+}

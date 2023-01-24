@@ -1,0 +1,29 @@
+.sub-segments-container {
+    width: 65%;
+    height: 175px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+.item-selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #e5dfdf;
+    width: fit-content;
+}
+
+.sub-segment {
+    cursor: pointer;
+    padding-left: 40px;
+}
+
+.product-list-container {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
